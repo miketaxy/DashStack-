@@ -1,0 +1,27 @@
+.sidebar {
+    padding: 0 35px;
+  &__logo {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__text {
+      font-weight: bolder;
+      color: #202224;
+      font-size: 20px;
+
+      &__dash {
+        color: #4880ff;
+      }
+    }
+  }
+  &__list{
+    &__element{
+        height: 50px;
+        border-radius: 5px;
+    } &__element:hover {
+        background-color: #4880FF;
+        cursor: pointer;
+    }
+  }
+}
